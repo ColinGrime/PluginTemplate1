@@ -1,0 +1,6 @@
+name: NightClone
+main: me.colingrimes.nightclone.NightClone
+version: ${version}
+api-version: 1.20
+author: Scill
+depend: [Midnight]
