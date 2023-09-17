@@ -24,9 +24,18 @@ repositories {
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT'
     compileOnly 'com.github.ColinGrime:Midnight:${MIDNIGHT_VERSION}'
+
+    // Testing:
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation 'org.mockito:mockito-core:5.3.1'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.5.0'
 }
 
-// ${version} placeholders.
+test {
+    useJUnitPlatform()
+}
+
 processResources {
     filter ReplaceTokens, beginToken: '${', endToken: '}', tokens: ['version': version]
 }
