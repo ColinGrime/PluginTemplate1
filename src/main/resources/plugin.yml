@@ -1,6 +1,6 @@
-name: NightClone
-main: me.colingrimes.nightclone.NightClone
+name: ${PROJECT_NAME}
+main: ${PACKAGE_NAME}.${PROJECT_NAME}
 version: ${version}
 api-version: 1.20
-author: Scill
+author: ${AUTHOR}
 depend: [Midnight]
