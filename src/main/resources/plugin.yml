@@ -1,5 +1,5 @@
-name: ${PROJECT_NAME}
-main: ${PACKAGE_NAME}.${PROJECT_NAME}
+name: ${PROJECT}
+main: ${PACKAGE}.${PROJECT}
 version: ${version}
 api-version: 1.20
 author: ${AUTHOR}

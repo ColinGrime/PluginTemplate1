@@ -9,7 +9,7 @@ java {
     targetCompatibility JavaVersion.VERSION_17
 }
 
-group '${PACKAGE_NAME}'
+group '${PACKAGE}'
 version '1.0.0-alpha'
 
 repositories {
