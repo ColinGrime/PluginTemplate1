@@ -1,6 +1,6 @@
 name: ${PROJECT}
 main: ${PACKAGE}.${PROJECT}
 version: ${version}
-api-version: 1.20
+api-version: 1.21
 author: ${AUTHOR}
 depend: [Midnight]
